@@ -1,1 +1,16 @@
+[project]
+name = "liste-rappel"
+version = "0.1.0"
+description = "Surveillance des listes de rappel CTAQ"
+authors = [{name = "CTA Watcher"}]
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "python-dotenv",
+  "pdfminer.six",
+  "beautifulsoup4",
+  "lxml",
+]
 
+[project.scripts]
+liste-rappel = "liste_rappel.watcher:main"
