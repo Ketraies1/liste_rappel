@@ -1,1 +1,7 @@
-
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+state.json
+watcher.log
